@@ -34,4 +34,19 @@ print("The array is : ",arr)
 print("The reversed array is: ",reverse_array(arr))
 
 
+# METHOD- 3
+
+def reverse_array(arr):
+    return arr[::-1]
+
+
+n = int(input("Enter the length of array: \n"))
+print("Enter the elements : ")
+for i in range(n):
+    value = int(input())
+arr =[value for i in range(n)]
+print("The array is : ",arr)
+print("The reversed array is: ",reverse_array(arr))
+
+
 
