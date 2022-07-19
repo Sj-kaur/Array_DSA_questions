@@ -18,7 +18,7 @@ def intersection_of_array(arr1,arr2,n1,n2):
          for i in range(n2):
                 for j in range(n1):
                     if arr2[i] == arr1[j]:
-                        arr.apeend(arr2[j])
+                        arr.append(arr2[j])
     return set(arr)
 
 
