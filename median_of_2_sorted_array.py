@@ -1,9 +1,7 @@
-
+from statistics import median
 
 def median_array(arr):
-    i = int(len(arr)/2)
-    avg = (arr[i] + arr[i-1])/2
-    return int(avg)
+    return median(arr)
 
 
 if __name__ == "__main__":
