@@ -1,3 +1,4 @@
+# This code will not work for the array which has all negative elements.
 
 def maxSubArraySum(arr,n):
     max_far = arr[0]
